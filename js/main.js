@@ -1,10 +1,21 @@
-;(function(){
-	"use strict";
-
-	jQuery(function($) {
-		
+	$(document).ready(function() {
+		$('.slider').slick({
+			arrows: true, //показывает стрелки или нет
+			dots: false, //показывает точки или нет
+			adaptiveHeight: true,  //адаптивная высота оболочки под высоты слайда
+			slidesToShow: 4, //количество показывающих слайдов
+			slidesToScroll: 2, //прокрутка за один раз слайдов
+			speed: 1500, //скорость прокрутки в миллисекундах
+			easing: 'linear', // тип CSS анимации 
+			infinite: false, //будет ли слайд бесконечно прокручиваться (повторяться)
+			initialSlide: 2, //стартовый слайд
+			autoplay: false, //автопрокрутка
+			autoplaySpeed: 1000, //скорость автопрокрутки в миллисекундах
+			pauseOnFocus: true, //пауза при автопрокрутке при фокусе слайда
+			pauseOnHover: true, //пауза при автопрокрутке при ховере слайда
+			pauseOnDotsHover: true, //пауза при автопрокрутке при ховере точки
+			draggable: true, // перелистовать с помощью мыши и зажатой кнопки
+			swipe: true, //перелистовать плавно пальцем на телефоне
+		});	
 	})
-
-
-})();
 
