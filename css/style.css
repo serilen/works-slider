@@ -129,3 +129,23 @@ h1, h2, h3, h4, h5, h6, p {
     transform: rotate(180deg) translateY(50%); }
   .slider .slick-arrow.slick-disabled {
     opacity: 0.2; }
+
+.sliderbig {
+  margin-bottom: 20px; }
+  .sliderbig__item {
+    text-align: center;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+
+.link__add {
+  cursor: pointer;
+  color: #000; }
+
+.link__remove {
+  color: #000;
+  cursor: pointer; }
+
+.link__filter {
+  color: #000;
+  cursor: pointer; }
